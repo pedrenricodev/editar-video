@@ -16,8 +16,8 @@ Para quem já edita vídeo com o Claude Code numa esteira local parecida com est
 - **Whisper** para transcrição com timestamp por palavra
 - **Scripts Python** de montagem e mix
 
-Se você ainda não tem os modelos, a skill continua útil: a esteira, os erros conhecidos e as regras de
-safe zone valem sozinhos, e ela ajuda a montar o primeiro modelo e congelar como padrão.
+O modelo padrão (`falando-com-overlay`) vem pronto na pasta `kit/`. Para os outros, a skill continua útil: a esteira, os erros conhecidos e as regras de
+safe zone valem sozinhos, e ela ajuda a montar cada modelo a partir do kit e congelar como padrão.
 
 ## O que tem aqui
 
@@ -25,6 +25,7 @@ safe zone valem sozinhos, e ela ajuda a montar o primeiro modelo e congelar como
 |---|---|
 | `SKILL.md` | A skill: como escolher o modelo, a esteira em 10 passos, os erros conhecidos e as regras fixas |
 | `MODELOS.md` | O mapa local que **você preenche**: onde estão o código e o manual de cada modelo na sua máquina |
+| `kit/` | Código pronto do modelo padrão `falando-com-overlay`: projeto Remotion + scripts da esteira, com exemplo sintético. Instalação em `kit/README.md` |
 
 ## Instalar
 

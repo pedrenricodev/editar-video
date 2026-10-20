@@ -1,0 +1,22 @@
+{
+  "name": "falando-com-overlay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kit Remotion do modelo falando-com-overlay da skill editar-video",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render FalandoComOverlay",
+    "still": "remotion still FalandoComOverlay",
+    "tipos": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.518",
+    "@remotion/google-fonts": "4.0.518",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.518",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,400 @@
+{
+ "base": "exemplo/take.mp4",
+ "duracao": 12.0,
+ "palavras": [
+  {
+   "texto": "Esse",
+   "inicio": 0.2,
+   "fim": 0.42
+  },
+  {
+   "texto": "kit",
+   "inicio": 0.46,
+   "fim": 0.67
+  },
+  {
+   "texto": "corta,",
+   "inicio": 0.71,
+   "fim": 0.93
+  },
+  {
+   "texto": "legenda",
+   "inicio": 0.97,
+   "fim": 1.18
+  },
+  {
+   "texto": "e",
+   "inicio": 1.22,
+   "fim": 1.44
+  },
+  {
+   "texto": "anima",
+   "inicio": 1.48,
+   "fim": 1.69
+  },
+  {
+   "texto": "o",
+   "inicio": 1.73,
+   "fim": 1.95
+  },
+  {
+   "texto": "seu",
+   "inicio": 1.99,
+   "fim": 2.2
+  },
+  {
+   "texto": "take.",
+   "inicio": 2.24,
+   "fim": 2.46
+  },
+  {
+   "texto": "O",
+   "inicio": 2.6,
+   "fim": 2.81
+  },
+  {
+   "texto": "melhor",
+   "inicio": 2.85,
+   "fim": 3.05
+  },
+  {
+   "texto": "de",
+   "inicio": 3.09,
+   "fim": 3.3
+  },
+  {
+   "texto": "tudo:",
+   "inicio": 3.34,
+   "fim": 3.54
+  },
+  {
+   "texto": "quarenta",
+   "inicio": 3.58,
+   "fim": 3.79
+  },
+  {
+   "texto": "por",
+   "inicio": 3.83,
+   "fim": 4.03
+  },
+  {
+   "texto": "cento",
+   "inicio": 4.07,
+   "fim": 4.28
+  },
+  {
+   "texto": "menos",
+   "inicio": 4.32,
+   "fim": 4.52
+  },
+  {
+   "texto": "tempo",
+   "inicio": 4.56,
+   "fim": 4.77
+  },
+  {
+   "texto": "por",
+   "inicio": 4.81,
+   "fim": 5.01
+  },
+  {
+   "texto": "Reels.",
+   "inicio": 5.05,
+   "fim": 5.26
+  },
+  {
+   "texto": "Aqui",
+   "inicio": 5.4,
+   "fim": 5.59
+  },
+  {
+   "texto": "entra",
+   "inicio": 5.63,
+   "fim": 5.82
+  },
+  {
+   "texto": "o",
+   "inicio": 5.86,
+   "fim": 6.05
+  },
+  {
+   "texto": "print",
+   "inicio": 6.09,
+   "fim": 6.28
+  },
+  {
+   "texto": "real,",
+   "inicio": 6.32,
+   "fim": 6.51
+  },
+  {
+   "texto": "marcado",
+   "inicio": 6.55,
+   "fim": 6.74
+  },
+  {
+   "texto": "no",
+   "inicio": 6.78,
+   "fim": 6.97
+  },
+  {
+   "texto": "ponto",
+   "inicio": 7.01,
+   "fim": 7.2
+  },
+  {
+   "texto": "que",
+   "inicio": 7.24,
+   "fim": 7.43
+  },
+  {
+   "texto": "importa.",
+   "inicio": 7.47,
+   "fim": 7.66
+  },
+  {
+   "texto": "Comenta",
+   "inicio": 9.7,
+   "fim": 9.98
+  },
+  {
+   "texto": "KIT",
+   "inicio": 10.02,
+   "fim": 10.29
+  },
+  {
+   "texto": "que",
+   "inicio": 10.33,
+   "fim": 10.61
+  },
+  {
+   "texto": "eu",
+   "inicio": 10.65,
+   "fim": 10.93
+  },
+  {
+   "texto": "te",
+   "inicio": 10.97,
+   "fim": 11.24
+  },
+  {
+   "texto": "mando.",
+   "inicio": 11.28,
+   "fim": 11.56
+  }
+ ],
+ "destaques": [
+  "kit",
+  "print",
+  "real",
+  "reels"
+ ],
+ "blocos": [
+  {
+   "linhas": [
+    {
+     "texto": "isso corta",
+     "inicio": 7.9,
+     "peso": "pequena"
+    },
+    {
+     "texto": "metade",
+     "inicio": 8.4,
+     "peso": "grande"
+    },
+    {
+     "texto": "do trabalho.",
+     "inicio": 8.9,
+     "peso": "remate"
+    }
+   ],
+   "fim": 9.5
+  }
+ ],
+ "semLegenda": [
+  {
+   "entra": 0.0,
+   "sai": 2.55
+  },
+  {
+   "entra": 2.6,
+   "sai": 5.4
+  },
+  {
+   "entra": 9.7,
+   "sai": 12.5
+  }
+ ],
+ "transicoes": [
+  {
+   "t": 2.58,
+   "tipo": "desfoque"
+  },
+  {
+   "t": 9.68,
+   "tipo": "flash"
+  }
+ ],
+ "zooms": [
+  {
+   "entra": 7.9,
+   "sai": 9.5
+  }
+ ],
+ "socos": [
+  0.6,
+  9.8
+ ],
+ "chip": {
+  "entra": 2.5,
+  "sai": 9.5,
+  "palavra": "KIT",
+  "complemento": "e receba o modelo"
+ },
+ "elementos": [
+  {
+   "tipo": "palavraAtras",
+   "texto": "KIT",
+   "entra": 0.6,
+   "sai": 2.4
+  },
+  {
+   "tipo": "pilulas",
+   "sai": 2.5,
+   "top": 1200,
+   "itens": [
+    {
+     "texto": "corta",
+     "entra": 1.0,
+     "de": "esq"
+    },
+    {
+     "texto": "legenda",
+     "entra": 1.4,
+     "destaque": true
+    },
+    {
+     "texto": "anima",
+     "entra": 1.8,
+     "de": "dir"
+    }
+   ]
+  },
+  {
+   "tipo": "telaCor",
+   "entra": 2.6,
+   "sai": 5.4,
+   "eyebrow": "Tempo de edição",
+   "antes": {
+    "a": "o melhor",
+    "b": "de tudo:"
+   },
+   "numero": {
+    "alvo": 40,
+    "entra": 3.6,
+    "prefixo": "-",
+    "sufixo": "%"
+   },
+   "apoio": {
+    "texto": "menos tempo",
+    "entra": 4.1
+   },
+   "selo": {
+    "texto": "por Reels",
+    "entra": 4.6
+   }
+  },
+  {
+   "tipo": "print",
+   "arquivo": "exemplo/print.png",
+   "larguraOriginal": 1200,
+   "entra": 5.4,
+   "sai": 7.8,
+   "eyebrow": "Print real, marcado",
+   "titulo": {
+    "a": "o que importa",
+    "b": "fica marcado.",
+    "entra": 5.6
+   },
+   "marca": {
+    "x": 60,
+    "y": 310,
+    "w": 1080,
+    "h": 100,
+    "entra": 6.2
+   },
+   "circulos": [
+    {
+     "x": 740,
+     "y": 315,
+     "w": 340,
+     "h": 90,
+     "entra": 6.8
+    }
+   ]
+  },
+  {
+   "tipo": "seletor",
+   "niveis": [
+    "baixo",
+    "médio",
+    "alto",
+    "máx"
+   ],
+   "de": 3,
+   "para": 1,
+   "entra": 7.85,
+   "muda": 8.5,
+   "sai": 9.45,
+   "eyebrow": "Ajuste fino"
+  },
+  {
+   "tipo": "palavraAtras",
+   "texto": "KIT",
+   "entra": 9.8,
+   "sai": 13.0,
+   "destaque": true
+  },
+  {
+   "tipo": "cta",
+   "entra": 9.8,
+   "chamada": "Quer o modelo?",
+   "palavra": "KIT"
+  }
+ ],
+ "sfx": [
+  [
+   0.15,
+   "riser"
+  ],
+  [
+   0.6,
+   "impacto"
+  ],
+  [
+   3.6,
+   "impacto"
+  ],
+  [
+   6.8,
+   "clique"
+  ],
+  [
+   8.5,
+   "clique"
+  ],
+  [
+   9.25,
+   "riser"
+  ],
+  [
+   9.8,
+   "impacto"
+  ],
+  [
+   9.84,
+   "brilho"
+  ]
+ ],
+ "legenda": "curta"
+}

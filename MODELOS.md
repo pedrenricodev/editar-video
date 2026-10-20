@@ -13,7 +13,7 @@ Linha com `<preencher>` = modelo que ainda não existe aqui.
 
 | Tipo | Código (composição / script de montagem / mix) | Manual a ler primeiro |
 |---|---|---|
-| `falando-com-overlay` | `<preencher>` | `<preencher>/LEIA-MODELO.md` |
+| `falando-com-overlay` | `kit/` deste repositório (`kit/src/FalandoComOverlay.tsx`, `kit/esteira/montar_props.py`, `kit/esteira/mixar.py`) | `kit/README.md` |
 | `print-marcado` | `<preencher>` | `<preencher>` |
 | `tela-cheia-narrada` | `<preencher>` | `<preencher>` |
 | `horizontal-comedia` | `<preencher>` | `<preencher>` |
