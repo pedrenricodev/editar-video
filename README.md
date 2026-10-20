@@ -7,6 +7,29 @@ Ela não é um editor. É um roteador: quando você pede "edita esse take", o Cl
 edição certo, lê o manual daquele modelo antes de mexer e segue uma esteira fixa (corte, legenda, som,
 render, entrega) com uma lista de erros que já custaram retrabalho e não precisam se repetir.
 
+## Instalar em 1 minuto
+
+Copie o texto abaixo, cole no seu Claude Code e mande. Ele baixa a skill, instala o kit e roda o
+exemplo para provar que funcionou.
+
+```text
+Instale a skill editar-video para mim. Rode:
+git clone https://github.com/pedrenricodev/editar-video ~/.claude/skills/editar-video
+Depois leia ~/.claude/skills/editar-video/kit/README.md e siga a seção 1 (instalar o combo inteiro:
+ffmpeg, Node, Python, whisper.cpp e o modelo do Whisper), me pedindo permissão antes de cada
+instalação. Em seguida rode a seção 2 (exemplo sintético) dentro de ~/.claude/skills/editar-video/kit
+e me mostre o still gerado. No fim, me diga o que ficou instalado e o que faltou.
+```
+
+Prefere fazer à mão? É um comando só:
+
+```bash
+git clone https://github.com/pedrenricodev/editar-video ~/.claude/skills/editar-video
+```
+
+Depois abra uma sessão nova do Claude Code: a skill aparece sozinha e dispara quando o pedido é de
+edição de vídeo. Para o código do editor, siga o [`kit/README.md`](kit/README.md).
+
 ## Para quem serve
 
 Para quem já edita vídeo com o Claude Code numa esteira local parecida com esta:
@@ -26,15 +49,6 @@ safe zone valem sozinhos, e ela ajuda a montar cada modelo a partir do kit e con
 | `SKILL.md` | A skill: como escolher o modelo, a esteira em 10 passos, os erros conhecidos e as regras fixas |
 | `MODELOS.md` | O mapa local que **você preenche**: onde estão o código e o manual de cada modelo na sua máquina |
 | `kit/` | Código pronto do modelo padrão `falando-com-overlay`: projeto Remotion + scripts da esteira, com exemplo sintético. Instalação em `kit/README.md` |
-
-## Instalar
-
-```bash
-git clone https://github.com/pedrenricodev/editar-video ~/.claude/skills/editar-video
-```
-
-Abra uma sessão nova do Claude Code. A skill aparece sozinha na lista e dispara quando o pedido é de
-edição de vídeo.
 
 ## Configurar
 
